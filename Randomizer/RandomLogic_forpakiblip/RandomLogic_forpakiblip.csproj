@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon>96px.ico</ApplicationIcon>
+    <StartupObject>RandomLogic_forpakiblip.Program</StartupObject>
+    <Version>2.2.0</Version>
+    <Description>Randomizer of Pakiblip Project</Description>
+    <Copyright>GaumKap 2019</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <Product>Pakiblip Randomizer</Product>
+    <Company>GaumKap Systems</Company>
+    <Authors>GaumKap</Authors>
+    <PackageId>Pakiblip Randomizer</PackageId>
+    <PackageLicenseExpression>By GaumKap, Pakiblip Project, VS C#</PackageLicenseExpression>
+    <SignAssembly>false</SignAssembly>
+    <Win32Resource />
+    <AssemblyVersion>2.2.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+</Project>
