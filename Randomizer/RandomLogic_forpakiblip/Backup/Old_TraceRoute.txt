@@ -1,0 +1,123 @@
+﻿void TraceRoute()
+        {
+            var rem_cases = 0;
+            var nb_road = 1;
+            var x = lin; //lin
+            var y = colon; //colon
+            var hystory = new int[NB_CASES + 2];
+            var old_pos = -1;
+            hystory[0] = -1;
+            while(rem_cases < NB_CASES)
+            {
+                var dir = aleatoire.Next(4);
+                //Console.WriteLine(dir);
+                /*0:left - 1:right - 2:up - 3:down*/
+                if (dir == 0 && old_pos != 0 && (x - 1) >= 0 && table[x - 1, y] == 0)
+                {
+                    table[x - 1, y] = nb_road;
+                    rem_cases++;
+                    hystory[rem_cases] = 1; //save to hystory
+                    nb_road++;
+                    x--;
+                    old_pos = -1;
+                }
+                else if (dir == 1 && old_pos != 1 && (x + 1) <= (MAX_X - 1) && table[x + 1, y] == 0)
+                {
+                    table[x + 1, y] = nb_road;
+                    rem_cases++;
+                    hystory[rem_cases] = 0; //save to hystory
+                    nb_road++;
+                    x++;
+                    old_pos = -1;
+                }
+                else if (dir == 2 && old_pos != 2 && (y - 1) >= 0 && table[x, y - 1] == 0)
+                {
+                    table[x, y - 1] = nb_road;
+                    rem_cases++;
+                    hystory[rem_cases] = 3; //save to hystory
+                    nb_road++;
+                    y--;
+                    old_pos = -1;
+                }
+                else if (dir == 3 && old_pos != 3 && (y + 1) <= (MAX_Y - 1) && table[x, y + 1] == 0)
+                {
+                    table[x, y + 1] = nb_road;
+                    rem_cases++;
+                    hystory[rem_cases] = 2; //save to hystory
+                    nb_road++;
+                    y++;
+                    old_pos = -1;
+                }
+                else
+                {
+                    if (x == lin && y == colon)
+                    {
+                        TabToZero();
+                        PlacePlayer();
+                    }
+
+                    if (rem_cases == 0)
+                        old_pos = hystory[rem_cases];
+                    else
+                        old_pos = hystory[rem_cases];
+                    //Console.WriteLine(dir + " imposible");
+                    //if (rem_cases == 0) Console.WriteLine("hisorique : " + hystory[rem_cases]);
+                    //else Console.WriteLine("Historique : " + hystory[rem_cases]);
+                    //retest in all direction
+                    if (old_pos != 0 && (x - 1) >= 0 && table[x - 1, y] == 0)
+                    {
+                        table[x - 1, y] = nb_road;
+                        rem_cases++;
+                        hystory[rem_cases] = 1; //save to hystory
+                        nb_road++;
+                        x--;
+                        old_pos = -1;
+                        //Console.WriteLine("0");
+                    }
+                    else if (old_pos != 1 && (x + 1) <= (MAX_X - 1) && table[x + 1, y] == 0)
+                    {
+                        table[x + 1, y] = nb_road;
+                        rem_cases++;
+                        hystory[rem_cases] = 0; //save to hystory
+                        nb_road++;
+                        x++;
+                        old_pos = -1;
+                        //Console.WriteLine("1");
+                    }
+                    else if (old_pos != 2 && (y - 1) >= 0 && table[x, y - 1] == 0)
+                    {
+                        table[x, y - 1] = nb_road;
+                        rem_cases++;
+                        hystory[rem_cases] = 3; //save to hystory
+                        nb_road++;
+                        y--;
+                        old_pos = -1;
+                        //Console.WriteLine("2");
+                    }
+                    else if (old_pos != 3 && (y + 1) <= (MAX_Y - 1) && table[x, y + 1] == 0)
+                    {
+                        table[x, y + 1] = nb_road;
+                        rem_cases++;
+                        hystory[rem_cases] = 2; //save to hystory
+                        nb_road++;
+                        y++;
+                        old_pos = -1;
+                        //Console.WriteLine("3");
+                    }
+                    else
+                    {
+                        //Console.WriteLine("back :(");
+                        old_pos = hystory[rem_cases];
+                        table[x, y] = MAX_CASES+1;
+                        if (rem_cases > 0) rem_cases--;
+                        if (nb_road > 1) nb_road--;
+                        if (old_pos == 0)
+                            x--;
+                        else if (old_pos == 1)
+                            x++;
+                        else if (old_pos == 2)
+                            y--;
+                        else if (old_pos == 3)
+                            y++;
+                    }
+                }

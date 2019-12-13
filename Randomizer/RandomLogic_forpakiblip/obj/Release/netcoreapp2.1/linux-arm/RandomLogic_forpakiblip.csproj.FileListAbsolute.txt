@@ -1,0 +1,14 @@
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\libhostpolicy.so
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\libhostfxr.so
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.deps.json
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.runtimeconfig.json
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.runtimeconfig.dev.json
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.dll
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\bin\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.pdb
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\obj\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.csprojAssemblyReference.cache
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\obj\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.csproj.CoreCompileInputs.cache
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\obj\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.AssemblyInfoInputs.cache
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\obj\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.AssemblyInfo.cs
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\obj\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.dll
+G:\Users\guill\source\repos\RandomLogic_forpakiblip\RandomLogic_forpakiblip\obj\Release\netcoreapp2.1\linux-arm\RandomLogic_forpakiblip.pdb
