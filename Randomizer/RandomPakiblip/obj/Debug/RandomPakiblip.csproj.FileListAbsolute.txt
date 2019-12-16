@@ -1,0 +1,6 @@
+D:\Users\guill\Documents\GitHub\Pakiblip-Project\Randomizer\RandomPakiblip\bin\Debug\RandomPakiblip.exe.config
+D:\Users\guill\Documents\GitHub\Pakiblip-Project\Randomizer\RandomPakiblip\bin\Debug\RandomPakiblip.exe
+D:\Users\guill\Documents\GitHub\Pakiblip-Project\Randomizer\RandomPakiblip\bin\Debug\RandomPakiblip.pdb
+D:\Users\guill\Documents\GitHub\Pakiblip-Project\Randomizer\RandomPakiblip\obj\Debug\RandomPakiblip.csprojAssemblyReference.cache
+D:\Users\guill\Documents\GitHub\Pakiblip-Project\Randomizer\RandomPakiblip\obj\Debug\RandomPakiblip.exe
+D:\Users\guill\Documents\GitHub\Pakiblip-Project\Randomizer\RandomPakiblip\obj\Debug\RandomPakiblip.pdb
